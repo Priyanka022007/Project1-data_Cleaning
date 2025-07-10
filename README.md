@@ -1,1 +1,10 @@
-# Project1-data_Cleaning
+                                  "Report On Car Price Prediction Project "
+ 
+ Project1 :-" Car Price Prediction "
+
+  This is car price prediction project in that we give car name ,its company,its Kms Driven ,and its fuel type . In that we first do the cleaning of dataset.In that We first import libraries which are needed in to data cleaning. then import our dataset. then check the basic analysis of our dataset. Remove duplicates in that dataset.then find the unique values .and also check its info to find its datatype. convert datatype to numeric of kms_driven by using to_numeric() method . so as it is all variables we can clean . then we save that cleaned data into another file.
+  
+  Second step is to Perform EDA on that dataset . In that we first import libraries.then import dataset. In cleaned data file the unnamed  column will added .so,first remove it because it will create problem in model fittiong. In EDA we first check Distribution of Car Prices by using histplot. then Cars by Manufacturing Year by using countplot.then KMs Driven vs. Price  by using Scatter Plot.then Top 10 Most Listed Car Brands.Price Comparison of Top Brands using Boxplot. Fuel Type Distribution by using piechart.Average Price by Fuel Type by using barplot. then we see the Relationship Between Year and Price by using boxplot. At the end We see the correlation Heatmap. In that We also define the Interpretations of each plot graph.
+  
+  Third step to Fitting the model algorithm on our dataset.In that we first import libraries then import dataset.In that also we first delete the unnamed column in cleaned dataset.then we see basic analysis .then split that dataset  vertically into independent(input) data and dependent(output) data. thn we implement OneHotEncoding on data.then make pipeline of it.Then split that dataset into  training and testing . then we try to user input prediction.then we create its pikle file in write mode.then we first create folder named as Car_Price_App .In that we save the pkl file.and run code of that prediction on VS-code. by using streamlit library.then our project will be done on browser.On that we put their values of that specific data and predict the car price as per their fuel_type,kms_driven,and years_of_experiens.and so on. 
+   THANK YOU........ 
